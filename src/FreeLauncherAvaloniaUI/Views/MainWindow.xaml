@@ -7,7 +7,9 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="FreeLauncherAvaloniaUI.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="FreeLauncherAvaloniaUI">
+        Title="FreeLauncherAvaloniaUI"
+        Width="720"
+        Height="480">
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
@@ -21,29 +23,42 @@
           <TabItem Header="Console">
             <tabs:Console x:Name="ConsoleTab"/>
           </TabItem>
+          <TabItem Header="Builds Management">
+            <tabs:Builds x:Name="BuildsTab"/>
+          </TabItem>
+          <TabItem Header="Profile Management">
+            <tabs:Profiles x:Name="ProfilesTab"/>
+          </TabItem>
+          <TabItem Header="About">
+            <tabs:About x:Name="AboutTab"/>
+          </TabItem>
         </TabControl>
         <Grid>
           <!-- Profile stuff on the bottom left. -->
-          <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom">
-            <StackPanel Orientation="Horizontal">
-              <!-- Todo: Delete button image -->
-              <Button Content="D" Height="25" Width="20" Padding="10,0,5,0"></Button>
-              <ComboBox Height="25" Width="100" Margin="0,0,0,4"></ComboBox>
+          <StackPanel Margin="0,0,10,10" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            <StackPanel Margin="10,0,0,0" Orientation="Horizontal">
+              <!-- Reference: Left, Top, Right, Bottom -->
+              <Button Height="25" Width="25" Margin="0,0,0,5">
+                <!-- TODO: Delete button Image -->
+              </Button>
+              <ComboBox Height="25" Width="150" Margin="5,0,0,4"></ComboBox>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="10,0,0,0" Orientation="Horizontal">
               <Button Content="Add profile" Height="25" Width="100" Margin="0,0,5,0"></Button>
               <Button Content="Edit profile" Height="25" Width="100"></Button>
             </StackPanel>
           </StackPanel>
-          <!-- The start button. -->
+          
+          <!-- The start button. Currently missing a few items. TODO-->
           <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Launch the game" Height="50" Width="150"></Button>
           
           <!-- The minecraft logo at the bottom right. -->
-          <Grid>
-            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="Ready to launch xyz game"></TextBlock>
-          </Grid>
+          <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <!--TODO <Image Source="../Resources/minecraft-logo.png"></Image> -->
+            <TextBlock Text="Minecraft Logo"></TextBlock>
+            <!-- Reference: Left, Top, Right, Bottom -->
+            <TextBlock Text="Ready to launch xyz game" Margin="5,5,10,5"></TextBlock>
+          </StackPanel>
         </Grid>
       </Grid>
-
-
 </Window>

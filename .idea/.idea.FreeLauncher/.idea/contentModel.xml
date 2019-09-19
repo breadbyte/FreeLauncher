@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_FreeLauncher.-2133018705.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".appveyor.yml" t="Include" />
+      <e p=".github/assets/wiki/home/header.jpg" t="Include" />
+      <e p=".travis.yml" t="Include" />
+      <e p="FreeLauncher.sln" t="IncludeFlat" />
+      <e p="Solution Items" t="Include">
+        <e p=".github" t="Include">
+          <e p="assets" t="Include">
+            <e p="wiki" t="Include">
+              <e p="home" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="docs" t="Include" />
+        <e p="lib" t="Include">
+          <e p="RCWF" t="Include">
+            <e p="2017.1.221.40" t="Include" />
+          </e>
+        </e>
+        <e p="scripts" t="Include" />
+      </e>
+      <e p="docs/bg_main.png" t="Include" />
+      <e p="docs/index.html" t="Include" />
+      <e p="docs/stylesheet.css" t="Include" />
+      <e p="dotMCLauncher" t="Include" />
+      <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.Themes.VisualStudio2012Dark.dll" t="Include" />
+      <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.UI.dll" t="Include" />
+      <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.dll" t="Include" />
+      <e p="lib/RCWF/2017.1.221.40/TelerikCommon.dll" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="scripts/post_build.bat" t="Include" />
+      <e p="scripts/pre_build.bat" t="Include" />
+      <e p="src/FreeLauncher" t="IncludeRecursive">
+        <e p="ApplicationArguments.cs" t="Include" />
+        <e p="ApplicationConfiguration.cs" t="Include" />
+        <e p="ApplicationLocalization.cs" t="Include" />
+        <e p="Configuration.cs" t="Include" />
+        <e p="FodyWeavers.xml" t="Include" />
+        <e p="Forms" t="Include">
+          <e p="LauncherForm" t="Include">
+            <e p="LauncherForm.cs" t="Include" />
+            <e p="LauncherForm.designer.cs" t="Include" />
+            <e p="LauncherForm.resx" t="Include" />
+          </e>
+          <e p="ProfileForm" t="Include">
+            <e p="ProfileForm.Designer.cs" t="Include" />
+            <e p="ProfileForm.cs" t="Include" />
+            <e p="ProfileForm.resx" t="Include" />
+          </e>
+          <e p="UpdateForm" t="Include">
+            <e p="UpdateForm.Designer.cs" t="Include" />
+            <e p="UpdateForm.cs" t="Include" />
+            <e p="UpdateForm.resx" t="Include" />
+          </e>
+          <e p="UsersForm" t="Include">
+            <e p="UsersForm.Designer.cs" t="Include" />
+            <e p="UsersForm.cs" t="Include" />
+            <e p="UsersForm.resx" t="Include" />
+          </e>
+        </e>
+        <e p="FreeLauncher.csproj" t="IncludeRecursive" />
+        <e p="GitHubRelease.cs" t="Include" />
+        <e p="Java.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+          <e p="licenses.licx" t="Include" />
+        </e>
+        <e p="Translations" t="Include">
+          <e p="en_UK" t="Include">
+            <e p="lang.json" t="Include" />
+          </e>
+          <e p="ru_RU" t="Include">
+            <e p="lang.json" t="Include" />
+          </e>
+        </e>
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="icon.ico" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="src/FreeLauncherAvaloniaUI" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="Assets" t="Include">
+          <e p="avalonia-logo.ico" t="Include" />
+        </e>
+        <e p="FreeLauncherAvaloniaUI.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="edit.png" t="Include" />
+          <e p="minecraft-logo.png" t="Include" />
+          <e p="minecraft_dirt.png" t="Include" />
+          <e p="trash.png" t="Include" />
+        </e>
+        <e p="Tabs" t="Include">
+          <e p="About.xaml" t="Include" />
+          <e p="About.xaml.cs" t="Include" />
+          <e p="Builds.xaml" t="Include" />
+          <e p="Builds.xaml.cs" t="Include" />
+          <e p="Console.xaml" t="Include" />
+          <e p="Console.xaml.cs" t="Include" />
+          <e p="News.xaml" t="Include" />
+          <e p="News.xaml.cs" t="Include" />
+          <e p="Profiles.xaml" t="Include" />
+          <e p="Profiles.xaml.cs" t="Include" />
+        </e>
+        <e p="ViewLocator.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="MainWindowViewModel.cs" t="Include" />
+          <e p="ViewModelBase.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="MainWindow.xaml" t="Include" />
+          <e p="MainWindow.xaml.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="nuget.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="FreeLauncherAvaloniaUI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="src/dotMCLauncher" t="IncludeRecursive">
+        <e p="OperatingSystem.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dotMCLauncher.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="src/dotMCLauncher.Networking" t="IncludeRecursive">
+        <e p="AuthManager.cs" t="Include" />
+        <e p="Authenticate.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Refresh.cs" t="Include" />
+        <e p="Request.cs" t="Include" />
+        <e p="Signout.cs" t="Include" />
+        <e p="Urls.cs" t="Include" />
+        <e p="UserInfo.cs" t="Include" />
+        <e p="Username.cs" t="Include" />
+        <e p="Validate.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dotMCLauncher.Networking.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="src/dotMCLauncher.Profiling" t="IncludeRecursive">
+        <e p="Profile" t="Include">
+          <e p="Profile.cs" t="Include" />
+          <e p="ServerInfo.cs" t="Include" />
+          <e p="WindowInfo.cs" t="Include" />
+        </e>
+        <e p="ProfileManager.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dotMCLauncher.Profiling.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="src/dotMCLauncher.Profiling.V2" t="IncludeRecursive">
+        <e p="AuthenticationEntry.cs" t="Include" />
+        <e p="AuthenticationProfile.cs" t="Include" />
+        <e p="LauncherProfile.cs" t="Include" />
+        <e p="LauncherProfileIcon.cs" t="Include" />
+        <e p="LauncherProfileResolution.cs" t="Include" />
+        <e p="LauncherProfileType.cs" t="Include" />
+        <e p="LauncherVersion.cs" t="Include" />
+        <e p="ProfileManager.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SelectedUser.cs" t="Include" />
+        <e p="Serializable.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dotMCLauncher.Profiling.V2.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="src/dotMCLauncher.Resourcing" t="IncludeRecursive">
+        <e p="Asset.cs" t="Include" />
+        <e p="AssetHash.cs" t="Include" />
+        <e p="AssetsManifest.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dotMCLauncher.Resourcing.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="src/dotMCLauncher.Versioning" t="IncludeRecursive">
+        <e p="Argument" t="Include">
+          <e p="Argument.cs" t="Include" />
+          <e p="ArgumentType.cs" t="Include" />
+          <e p="ArgumentsGroup.cs" t="Include" />
+          <e p="ArgumentsGroupType.cs" t="Include" />
+          <e p="ExtendedArgument.cs" t="Include" />
+          <e p="SingleArgument.cs" t="Include" />
+        </e>
+        <e p="ArgumentCollection.cs" t="Include" />
+        <e p="AssetsInfo.cs" t="Include" />
+        <e p="DownloadEntry.cs" t="Include" />
+        <e p="Lib" t="Include">
+          <e p="Lib.cs" t="Include" />
+          <e p="LibDownloadInfo.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RawVersionList" t="Include">
+          <e p="RawVersionListManifest.cs" t="Include" />
+          <e p="RawVersionListManifestEntry.cs" t="Include" />
+          <e p="RawVersionListManifestLatest.cs" t="Include" />
+        </e>
+        <e p="Rule" t="Include">
+          <e p="Features.cs" t="Include" />
+          <e p="Os.cs" t="Include" />
+          <e p="Rule.cs" t="Include" />
+        </e>
+        <e p="Version.cs" t="Include" />
+        <e p="VersionDownloadInfo.cs" t="Include" />
+        <e p="VersionManifest" t="Include">
+          <e p="VersionManifest.cs" t="Include" />
+          <e p="VersionManifestType.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dotMCLauncher.Versioning.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

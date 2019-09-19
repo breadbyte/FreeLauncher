@@ -213,18 +213,6 @@
     <EmbeddedResource Include="Translations\ru_RU\lang.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\minecraft-logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\minecraft_dirt.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\trash.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\edit.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="FodyWeavers.xml">
       <SubType>Designer</SubType>
     </None>
