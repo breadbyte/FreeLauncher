@@ -3,6 +3,7 @@
         xmlns:vm="clr-namespace:FreeLauncherAvaloniaUI.ViewModels;assembly=FreeLauncherAvaloniaUI"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tabs="clr-namespace:FreeLauncherAvaloniaUI.Tabs"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="FreeLauncherAvaloniaUI.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
@@ -12,6 +13,37 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+      <Grid>
+        <TabControl>
+          <TabItem Header="News">
+            <tabs:News x:Name="NewsTab"/>
+          </TabItem>
+          <TabItem Header="Console">
+            <tabs:Console x:Name="ConsoleTab"/>
+          </TabItem>
+        </TabControl>
+        <Grid>
+          <!-- Profile stuff on the bottom left. -->
+          <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal">
+              <!-- Todo: Delete button image -->
+              <Button Content="D" Height="25" Width="20" Padding="10,0,5,0"></Button>
+              <ComboBox Height="25" Width="100" Margin="0,0,0,4"></ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+              <Button Content="Add profile" Height="25" Width="100" Margin="0,0,5,0"></Button>
+              <Button Content="Edit profile" Height="25" Width="100"></Button>
+            </StackPanel>
+          </StackPanel>
+          <!-- The start button. -->
+          <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Launch the game" Height="50" Width="150"></Button>
+          
+          <!-- The minecraft logo at the bottom right. -->
+          <Grid>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="Ready to launch xyz game"></TextBlock>
+          </Grid>
+        </Grid>
+      </Grid>
+
 
 </Window>
