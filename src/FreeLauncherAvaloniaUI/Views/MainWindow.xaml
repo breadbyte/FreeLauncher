@@ -41,7 +41,7 @@
               <Button Height="25" Width="25" Margin="0,0,0,5">
                 <!-- TODO: Delete button Image -->
               </Button>
-              <ComboBox Height="25" Width="150" Margin="5,0,0,4"></ComboBox>
+              <ComboBox x:Name="ProfilesDropDown" Height="25" Width="175" Margin="5,0,0,4"></ComboBox>
             </StackPanel>
             <StackPanel Margin="10,0,0,0" Orientation="Horizontal">
               <Button Content="Add profile" Height="25" Width="100" Margin="0,0,5,0"></Button>
@@ -50,8 +50,15 @@
           </StackPanel>
           
           <!-- The start button. Currently missing a few items. TODO-->
-          <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Launch the game" Height="50" Width="150"></Button>
-          
+          <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+              <!-- Todo: edit image -->
+              <ComboBox x:Name="UsersDropDown" Height="25" Width="170" Margin="0,0,5,0"></ComboBox>
+              <Button Height="25" Width="25"></Button>
+            </StackPanel>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Launch the game" Height="25" Width="200"></Button>
+          </StackPanel>
+            
           <!-- The minecraft logo at the bottom right. -->
           <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <!--TODO <Image Source="../Resources/minecraft-logo.png"></Image> -->
