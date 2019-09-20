@@ -4,9 +4,7 @@
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_FreeLauncher.-2133018705.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p=".appveyor.yml" t="Include" />
       <e p=".github/assets/wiki/home/header.jpg" t="Include" />
-      <e p=".travis.yml" t="Include" />
       <e p="FreeLauncher.sln" t="IncludeFlat" />
       <e p="Solution Items" t="Include">
         <e p=".github" t="Include">
@@ -17,24 +15,12 @@
           </e>
         </e>
         <e p="docs" t="Include" />
-        <e p="lib" t="Include">
-          <e p="RCWF" t="Include">
-            <e p="2017.1.221.40" t="Include" />
-          </e>
-        </e>
-        <e p="scripts" t="Include" />
       </e>
       <e p="docs/bg_main.png" t="Include" />
       <e p="docs/index.html" t="Include" />
       <e p="docs/stylesheet.css" t="Include" />
       <e p="dotMCLauncherNetCore" t="Include" />
-      <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.Themes.VisualStudio2012Dark.dll" t="Include" />
-      <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.UI.dll" t="Include" />
-      <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.dll" t="Include" />
-      <e p="lib/RCWF/2017.1.221.40/TelerikCommon.dll" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="scripts/post_build.bat" t="Include" />
-      <e p="scripts/pre_build.bat" t="Include" />
       <e p="src/FreeLauncher" t="IncludeRecursive">
         <e p="ApplicationArguments.cs" t="Include" />
         <e p="ApplicationConfiguration.cs" t="Include" />

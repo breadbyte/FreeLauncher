@@ -4,22 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE424D60-EAE8-4843-A970-F35DDFFE81C5}"
-	ProjectSection(SolutionItems) = preProject
-		.appveyor.yml = .appveyor.yml
-		.travis.yml = .travis.yml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{96F33F15-98A2-43DC-A85D-42049B7BBD18}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RCWF", "RCWF", "{3D8B1D2C-774B-4DA5-BA79-66948F2B6F2B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017.1.221.40", "2017.1.221.40", "{E95BAA2C-A6D3-44D5-80C4-0BD401273C4C}"
-	ProjectSection(SolutionItems) = preProject
-		lib\RCWF\2017.1.221.40\Telerik.WinControls.dll = lib\RCWF\2017.1.221.40\Telerik.WinControls.dll
-		lib\RCWF\2017.1.221.40\Telerik.WinControls.Themes.VisualStudio2012Dark.dll = lib\RCWF\2017.1.221.40\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
-		lib\RCWF\2017.1.221.40\Telerik.WinControls.UI.dll = lib\RCWF\2017.1.221.40\Telerik.WinControls.UI.dll
-		lib\RCWF\2017.1.221.40\TelerikCommon.dll = lib\RCWF\2017.1.221.40\TelerikCommon.dll
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeLauncher", "src\FreeLauncher\FreeLauncher.csproj", "{F63BCFF8-2B72-4FF4-BE24-EEC9E1E3645B}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -36,12 +20,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{1287194F-03E2-4144-8C1A-20C760AF7693}"
 	ProjectSection(SolutionItems) = preProject
 		.github\assets\wiki\home\header.jpg = .github\assets\wiki\home\header.jpg
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{2AE1C310-EEF2-4741-9940-9206D8762459}"
-	ProjectSection(SolutionItems) = preProject
-		scripts\post_build.bat = scripts\post_build.bat
-		scripts\pre_build.bat = scripts\pre_build.bat
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9213DE3D-1749-434B-8804-6849D5165884}"
@@ -178,14 +156,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{96F33F15-98A2-43DC-A85D-42049B7BBD18} = {FE424D60-EAE8-4843-A970-F35DDFFE81C5}
-		{3D8B1D2C-774B-4DA5-BA79-66948F2B6F2B} = {96F33F15-98A2-43DC-A85D-42049B7BBD18}
-		{E95BAA2C-A6D3-44D5-80C4-0BD401273C4C} = {3D8B1D2C-774B-4DA5-BA79-66948F2B6F2B}
 		{478FD4B4-1BD7-4028-B142-F1C2505BC21F} = {FE424D60-EAE8-4843-A970-F35DDFFE81C5}
 		{68CAA24B-D44E-4A65-8100-E358C73BAF82} = {478FD4B4-1BD7-4028-B142-F1C2505BC21F}
 		{A4748344-C88A-4690-ACBB-91D1C73E3DE8} = {68CAA24B-D44E-4A65-8100-E358C73BAF82}
 		{1287194F-03E2-4144-8C1A-20C760AF7693} = {A4748344-C88A-4690-ACBB-91D1C73E3DE8}
-		{2AE1C310-EEF2-4741-9940-9206D8762459} = {FE424D60-EAE8-4843-A970-F35DDFFE81C5}
 		{9213DE3D-1749-434B-8804-6849D5165884} = {FE424D60-EAE8-4843-A970-F35DDFFE81C5}
 		{A5A84ADC-0AA7-4A44-BEC6-40E8648002A8} = {7C1AFF31-72CE-4597-B668-A7367A99350E}
 		{95BB0604-93C9-4421-A5BA-733A7D639E8E} = {7C1AFF31-72CE-4597-B668-A7367A99350E}
