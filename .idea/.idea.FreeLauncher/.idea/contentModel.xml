@@ -27,7 +27,7 @@
       <e p="docs/bg_main.png" t="Include" />
       <e p="docs/index.html" t="Include" />
       <e p="docs/stylesheet.css" t="Include" />
-      <e p="dotMCLauncher" t="Include" />
+      <e p="dotMCLauncherNetCore" t="Include" />
       <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.Themes.VisualStudio2012Dark.dll" t="Include" />
       <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.UI.dll" t="Include" />
       <e p="lib/RCWF/2017.1.221.40/Telerik.WinControls.dll" t="Include" />
@@ -136,22 +136,21 @@
           </e>
         </e>
       </e>
-      <e p="src/dotMCLauncher" t="IncludeRecursive">
+      <e p="src/netcoreapp/dotMCLauncher" t="IncludeRecursive">
         <e p="OperatingSystem.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="dotMCLauncher.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="packages.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="dotMCLauncher.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
-      <e p="src/dotMCLauncher.Networking" t="IncludeRecursive">
+      <e p="src/netcoreapp/dotMCLauncher.Networking" t="IncludeRecursive">
         <e p="AuthManager.cs" t="Include" />
         <e p="Authenticate.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
         <e p="Refresh.cs" t="Include" />
         <e p="Request.cs" t="Include" />
         <e p="Signout.cs" t="Include" />
@@ -161,25 +160,32 @@
         <e p="Validate.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="dotMCLauncher.Networking.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="packages.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="dotMCLauncher.Networking.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
-      <e p="src/dotMCLauncher.Profiling" t="IncludeRecursive">
+      <e p="src/netcoreapp/dotMCLauncher.Profiling" t="IncludeRecursive">
         <e p="Profile" t="Include">
           <e p="Profile.cs" t="Include" />
           <e p="ServerInfo.cs" t="Include" />
           <e p="WindowInfo.cs" t="Include" />
         </e>
         <e p="ProfileManager.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="dotMCLauncher.Profiling.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="packages.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="dotMCLauncher.Profiling.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
-      <e p="src/dotMCLauncher.Profiling.V2" t="IncludeRecursive">
+      <e p="src/netcoreapp/dotMCLauncher.Profiling.V2" t="IncludeRecursive">
         <e p="AuthenticationEntry.cs" t="Include" />
         <e p="AuthenticationProfile.cs" t="Include" />
         <e p="LauncherProfile.cs" t="Include" />
@@ -188,29 +194,33 @@
         <e p="LauncherProfileType.cs" t="Include" />
         <e p="LauncherVersion.cs" t="Include" />
         <e p="ProfileManager.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
         <e p="SelectedUser.cs" t="Include" />
         <e p="Serializable.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="dotMCLauncher.Profiling.V2.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="packages.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="dotMCLauncher.Profiling.V2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
-      <e p="src/dotMCLauncher.Resourcing" t="IncludeRecursive">
+      <e p="src/netcoreapp/dotMCLauncher.Resourcing" t="IncludeRecursive">
         <e p="Asset.cs" t="Include" />
         <e p="AssetHash.cs" t="Include" />
         <e p="AssetsManifest.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="dotMCLauncher.Resourcing.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="packages.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="dotMCLauncher.Resourcing.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
-      <e p="src/dotMCLauncher.Versioning" t="IncludeRecursive">
+      <e p="src/netcoreapp/dotMCLauncher.Versioning" t="IncludeRecursive">
         <e p="Argument" t="Include">
           <e p="Argument.cs" t="Include" />
           <e p="ArgumentType.cs" t="Include" />
@@ -225,9 +235,6 @@
         <e p="Lib" t="Include">
           <e p="Lib.cs" t="Include" />
           <e p="LibDownloadInfo.cs" t="Include" />
-        </e>
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="RawVersionList" t="Include">
           <e p="RawVersionListManifest.cs" t="Include" />
@@ -247,8 +254,13 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="dotMCLauncher.Versioning.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="packages.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="dotMCLauncher.Versioning.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
     </e>
   </component>
