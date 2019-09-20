@@ -8,4 +8,5 @@
                       d:DesignHeight="400" d:DesignWidth="600">
     
     <controls:TextBlock Text="Builds tab." HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <!-- todo: datagrid -->
 </controls:UserControl>
